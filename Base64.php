@@ -10,6 +10,6 @@ class Base64
             return base64_decode(preg_replace('/^data:(.*)\w+;base64,/i', '', $string));
         }
 
-        return false;
+        return base64_decode($string);
     }
 }
