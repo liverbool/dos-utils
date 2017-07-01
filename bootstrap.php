@@ -1,3 +1,3 @@
 <?php
 
-require_once 'func/base64decode.php';
+require_once 'func/base64_decode.php';
