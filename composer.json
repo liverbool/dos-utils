@@ -14,7 +14,8 @@
         "php": ">=5.3.3"
     },
     "autoload": {
-        "files": [ "_bootstrap.php" ]
+        "psr-4": { "Dos\\Utils\\": "" },
+        "files": [ "bootstrap.php" ]
     },
     "minimum-stability": "dev",
     "extra": {

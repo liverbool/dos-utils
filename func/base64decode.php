@@ -7,10 +7,6 @@ if (!function_exists('dos_base64decode')) {
      */
     function dos_base64decode($string)
     {
-        if (preg_match('/base64/', $string)) {
-            return base64_decode(preg_replace('/^data:image\/\w+;base64,/i', '', $string));
-        }
-
-        return false;
+        return \Dos\Utils\Base64::decode($string);
     }
 }
