@@ -1,0 +1,25 @@
+{
+    "name": "dos/utils",
+    "type": "library",
+    "description": "Dos polyfill utils",
+    "homepage": "https://github.com/liverbool/dos-utils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ishmael Dos",
+            "email": "nukboon@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "files": [ "_bootstrap.php" ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master-dev"
+        }
+    }
+}
